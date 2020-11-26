@@ -2,7 +2,6 @@
 
 ## Video Compressor Bot
 Without `AUTH_USERS`, i.e, free to use by all!
-*I am not responsible for your free dynos (rip heroku)
 ## HOW TO DEPLOY YOUTUBE TUTORIAL
 
 <a href="https://youtu.be/YEwAN3iTGyE"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
@@ -32,9 +31,6 @@ class Development(Config):
   APP_ID = 6
   API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
   TG_BOT_TOKEN = ""
-  AUTH_USERS = [
-    7351948
-  ]
 ```
 
 ### [@BotFather](https://telegram.dog/BotFather) Commands
