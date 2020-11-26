@@ -1,7 +1,8 @@
 ---
 
 ## Video Compressor Bot
-
+Without `AUTH_USERS`, i.e, free to use by all!
+*I am not responsible for your free dynos (rip heroku)
 ## HOW TO DEPLOY YOUTUBE TUTORIAL
 
 <a href="https://youtu.be/YEwAN3iTGyE"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
