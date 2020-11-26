@@ -20,7 +20,6 @@ LOGGER = logging.getLogger(__name__)
 from pyrogram import CallbackQuery
 #from bot.helper_funcs.admin_check import AdminCheck
 from bot import (
-    AUTH_USERS,
     DOWNLOAD_LOCATION
 )
 
@@ -35,7 +34,7 @@ async def button(bot, update: CallbackQuery):
     if (update.from_user.id == update.message.reply_to_message.from_user.id) or g:
         print(cb_data)
         if cb_data == "fuckingdo":
-            if update.from_user.id in AUTH_USERS:
+            if update.from_user.id:
                 status = DOWNLOAD_LOCATION + "/status.json"
                 with open(status, 'r+') as f:
                     statusMsg = json.load(f)
